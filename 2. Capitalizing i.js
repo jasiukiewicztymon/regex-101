@@ -1,3 +1,3 @@
-/(\W|^)i([i|I]*)(\W|$)/gm
+/\b(?:[i|I]+)\b/gm
 
-// substitution $1I\U$2$3
+// substitution \U$0
